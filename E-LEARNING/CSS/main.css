@@ -1,0 +1,220 @@
+html{
+    scroll-behavior: smooth;
+}
+/* Navigation Section */
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+/*    color: #ff3838!important;#2c3e50; #1e272e; #130f40*/
+}
+.custom-nav .custom-nav-item a{
+    color: #fff!important;
+}
+.custom-nav-item:hover{
+    background-color: #dc3545;
+    border: 1px solid #dc3545;
+    border-radius: 5px;
+}
+/*
+.card{
+    width: 100%;
+    max-height: 400px;
+}
+*/
+.remove-vid-marg{
+    margin: 0;
+    padding: 0;
+}
+.video-parent{
+    position: relative;
+}
+ video{
+    width: 100%;
+    height: 100%
+}
+.vid-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color:#130f40 ;
+    z-index: 10;
+    opacity: 0.6;
+}
+
+.remove-vid-marg .vid-content{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    z-index: 99;
+    text-align: center;
+    color: #fff;
+    
+}
+
+
+
+.bottom-banner{
+    color: #fff;
+    padding: 10px;
+}
+
+
+.stripe{
+    background-image: linear-gradient(240deg, #ed213a, #93291e);
+    padding: 3rem;
+    height: 13rem;
+    margin-top: 4rem;
+    transform: rotate(5deg);
+    z-index: -5;
+}
+
+
+/* testimonial Section */
+
+.testimonial-area{
+  padding: 11.4rem 0rem;
+  position: relative;
+  background-color: #130f40;
+}
+.testimonial-item::before{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.9);
+}
+
+.single-testimonial{
+    color: #fff;
+    padding-left: 4.8rem;
+    position: relative;
+    margin: 0rem 1rem 1rem;
+}
+.test-pic{
+    border-radius: 50%;
+    width: 150px;
+    height:150px;
+    left: 0;
+    margin-top: -75px;
+    position: absolute;
+    top: 50%;
+    
+}
+
+
+.test-pic > img{
+    background: linear-gradient(to bottom, darkcyan, white);
+    border-radius: 50%;
+    padding: 5px;
+}
+.testimonial-prof{
+    background: #FFFF4A;
+    padding: 40px 20px 40px 100px;
+    color: #262626;
+}
+
+.testimonial-prof h4{
+    font-size: 30px;
+    font-family: Srikhand;
+    margin-bottom: 30px;
+}
+.testimonial-prof h4 span{
+    display: block;
+    font-size: 14px;
+}
+.testimonial-prof p{
+    font-family:Courgette;
+    font-size: 18px;
+    line-height: 25px;
+}
+.single-testimonial:hover .testimonial-prof{
+    background: #fff;
+    transition: 0.9s;
+} 
+.testimonial-area div.owl-nav{
+    color: #FFFF4A;
+    display: inline-block;
+    font-size: 55px;
+    width: 40px;
+    height: 60px;
+    margin-top: -30px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.owl-prev ,.owl-next{
+   position: absolute;
+}
+
+.owl-prev {
+    left: -20px;
+    top: 100px;
+}
+.owl-next{
+    right: -20px;
+    top:100px;
+}
+
+
+
+
+
+/* Social Section */
+
+a.social-hover:hover{
+    padding: 5px 50px;
+    text-decoration: none;
+    background-color: rgb(95,93,93);
+}
+
+
+.remove-vid-marg .vid-content h1{
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 0.2rem;
+    margin-top: 2.2rem;
+    text-align: center;
+    text-shadow: 1px 1px 3px #FFEFBA;
+
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid white;
+    animation: deepak 6s steps(19) infinite alternate; 
+
+}
+
+
+@keyframes deepak{
+    0%{
+        width: 0;
+    }
+    50%{
+        width:50%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+.card{
+    width: 100%;
+    max-height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,99 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+.mynamemain{
+    font-family: 'Bungee Inline', cursive;
+    letter-spacing: 0.6rem;
+    margin-top: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 5px #FFEFBA;
+/*
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid white;
+    animation: deepak 10s steps(20) infinite alternate; 
+*/
+}
+
+/*
+@keyframes deepak{
+    0%{
+        width: 0;
+    }
+    50%{
+        width:50%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+*/
+
+
+.carousel-inner img {
+    width: 100%;
+    height:50vh;
+  }
+
+
+.para-head{
+    font-size: 20px!important;
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+    line-height: 2rem;
+    margin-bottom: 20px;
+}
+
+.myjumbotron{
+/*   background-image:url('../Images/tech4.jpg');*/
+   background-image: linear-gradient(45deg,#0F2027,#203A43,#2C5364);
+   opacity: 0.9;
+   background-size:cover;
+   background-repeat: no-repeat;
+}
+
+.img-self{
+    max-width: 500px;
+    max-height: 600px;
+    margin-left: 40px!important;
+}
+
+hr {
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    color: red;
+}
+.myname{
+    font-family: 'Domine', serif!important;
+    font-size: 40px!important;
+
+}
+.name-para{
+    font-family: 'Roboto', sans-serif!important;
+}
+
+.college-head{
+    font-family: 'Poppins', sans-serif;
+}
+.college-para{
+    font-family: 'PT Serif', serif;
+}
+
+.vbu-img{
+    border:2px solid black;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
